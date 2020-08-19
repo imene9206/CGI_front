@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/style.scss">
+  <title>Consulter et modifier fiche membre</title>
+</head>
+<body class="body-fiche-membres">
+  <div class="filters-none">
+      <button><p>Ajouter des filtres</p></button>
+  </div>
+<div class="filters">
+  <h1 class="filters_title">Filtrer par</h1>
+  <form action="POST">
+
+  <tr>
+      <td>
+      <input type="text" name="nom" placeholder="Nom">
+      </td>
+  </tr>
+
+  <tr>
+      <td>
+      <input type="text" name="prenom" placeholder="Prenom">
+      </td>
+  </tr>
+
+  <tr>
+      <td>
+      <input type="text" name="email" placeholder="Email">
+      </td>
+  </tr>
+  <tr>
+      <td>
+      <input type="text" name="manager" placeholder="Manager">
+      </td>
+  </tr>
+
+  <tr>
+      <td>
+          <button>Rechercher</button>
+      </td>
+  </tr>
+  </form>
+</div> 
+
+<a  class="addMember_button" href="#">  + Créer un nouveau membre</a>
+
+<table class="table-member"> 
+  <tr class="title-table">
+      <td>
+          <p>Nom</p>
+      </td>
+      <td>
+          <p>Prénom</p>
+      </td>
+      <td>
+          <p>Email</p>
+      </td>
+      <td>
+          <p>Manager</p>
+      </td>
+      <td>
+          <p>Compétence</p>
+      </td>
+  </tr>
+  <tr  class="content-table">
+      <td>
+          <p>VIEIRA</p>
+      </td>
+      <td>
+          <p>Michael</p>
+      </td>
+      <td>
+          <p>michael@gmail.com</p>
+      </td>
+      <td>
+          <p>Imene coeur</p>
+      </td>
+      <td>
+          <p>front-end</p>
+      </td>
+  </tr>
+  <tr class="content-table">
+      <td>
+          <p>MARTINI</p>
+      </td>
+      <td>
+          <p>Safia</p>
+      </td>
+      <td>
+          <p>Safia@gmail.com</p>
+      </td>
+      <td>
+          <p>Samira</p>
+      </td>
+      <td>
+          <p>UI/UX designer</p>
+      </td>
+  </tr>
+
+  <tr class="content-table">
+      <td>
+          <p>DANDOLO</p>
+      </td>
+      <td>
+          <p>Lucio</p>
+      </td>
+      <td>
+          <p>Lucio@gmail.com</p>
+      </td>
+      <td>
+          <p>Marco</p>
+      </td>
+      <td>
+          <p>Back-end</p>
+      </td>
+  </tr>
+
+  <tr class="content-table">
+      <td>
+          <p>DEBOVES</p>
+      </td>
+      <td>
+          <p>Joris</p>
+      </td>
+      <td>
+          <p>Joris@gmail.com</p>
+      </td>
+      <td>
+          <p>Elhadji</p>
+      </td>
+      <td>
+          <p>Chef de projet</p>
+      </td>
+  </tr>
+
+</table>
+<script src="./JavaScript/script.js" type="text/javascript"></script>
+</body>
+</html>

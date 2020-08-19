@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/blocs/creer_fiche_membre.scss">
+  <title>Document</title>
+</head>
+<body>
+  <div class="creer_fiche">
+  <form method="POST" action="index.php">
+    <div class="creer_fiche_left">
+      <table>
+        <h1>Identification</h1>
+            <tr>
+              <td>
+                <label for="nom">Nom </label>
+              </td>
+            </tr>
+      
+            <tr>
+              <td>
+                <input type="text" name="nom" placeholder="nom">
+              </td>
+            </tr>
+      
+            <tr>
+              <td>
+                <label for="prenom">Prenom </label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" name="prenom" placeholder="prenom">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="email">Email</label>
+              </td>
+            </tr>
+      
+            <tr>
+              <td>
+                <input type="email" name="email" placeholder="email">
+              </td>
+            </tr>
+      
+            <tr>
+              <td>
+                <label for="manager">Manager</label>
+              </td>
+            </tr>
+      
+            <tr>
+              <td>
+                <input type="text" name="manager" placeholder="ton manager">
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <button  type="submit" name="valider">Enregistrer</button>
+              </td>
+            </tr>
+        </table>
+      </form>
+
+      <h1>Compétences</h1>
+      <table>
+        <tr>
+          <td>
+            <p>Nom</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <p>Prenom</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="creer_fiche_right">
+      <h1>Affectations en cours et futures</h1>
+      <table>
+        <tr>
+          <td>
+            <p>Mission</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <p>Date de début</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <p>Date de fin</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <p>Temps</p>
+          </td>
+        </tr>
+      </table>
+
+      <h1>Affectations passée</h1>
+
+      <table>
+        <tr>
+          <td>
+            <p>Mission</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <p>Date de début</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <p>Date de fin</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <p>Temps</p>
+          </td>
+        </tr>
+      </table>  
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "cgi_front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "consulter": "parcel src/consulter_modif_fiche_membre.html",
+    "creer": "parcel src/creer_fiche_membre.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imene9206/CGI_front.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imene9206/CGI_front/issues"
+  },
+  "homepage": "https://github.com/imene9206/CGI_front#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.10"
+  }
+}

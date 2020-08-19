@@ -1,0 +1,72 @@
+.table-member {
+  display: flex;
+  justify-content: center;
+}
+td {
+border: 3px white solid;
+width: 200px;
+}
+p{
+  text-align: center;
+}
+
+.title-table {
+  background-color: rgb(0, 195, 255);
+  color: white;
+  font-weight:bold;
+  height: 50px;
+}
+
+.content-table{
+  background-color: rgb(204, 234, 248);
+  height: 50px;
+}
+
+
+.filters {
+  display:none;
+}
+.filters.visible {
+  width: 1000px;
+  background-color: lightgrey;
+  justify-content: center;
+  margin-left: 13rem;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; 
+}
+.filters_title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+.addMember_button {
+font-size: 14px;
+margin-left: 220px;
+text-decoration: underline;
+color: black;
+}
+
+.filters-none{
+  width:100px;
+}
+
+.filters-none button{
+  background-color: lightgrey;
+  width: 120px;
+  border-radius: 3px;
+  border: none;
+}
+
+.filters-none.active {
+display:none;
+}
+
+.cancel-filter{
+  position:absolute;
+  top: 5px;
+  right: 165px;
+
+}
